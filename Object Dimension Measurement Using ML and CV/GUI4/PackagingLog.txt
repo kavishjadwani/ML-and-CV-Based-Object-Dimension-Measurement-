@@ -1,0 +1,10 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Monika\Documents\MATLAB\Diffusion\GUI4\for_redistribution" />
+  <mkdir dir="C:\Users\Monika\Documents\MATLAB\Diffusion\GUI4\for_testing" />
+  <mkdir dir="C:\Users\Monika\Documents\MATLAB\Diffusion\GUI4\for_redistribution_files_only" />
+</ant>
+mcc -C -o GUI4 -W main:GUI4 -T link:exe -d C:\Users\Monika\Documents\MATLAB\Diffusion\GUI4\for_testing -v C:\Users\Monika\Documents\MATLAB\Diffusion\GUI4.m -a C:\Users\Monika\Documents\MATLAB\Diffusion\back1.jpg -a C:\Users\Monika\Documents\MATLAB\Diffusion\difulogo.JPG -a C:\MATLAB\SupportPackages\R2014b\genicaminterface\toolbox\imaq\supportpackages\gentl -a C:\MATLAB\SupportPackages\R2014b\osgenericvideointerface\toolbox\imaq\supportpackages\genericvideo -a C:\MATLAB\SupportPackages\R2014b\dcamhardware\toolbox\imaq\supportpackages\dcam 
+Test checkout of feature 'Compiler' failed.
+
+mcc failed.
